@@ -10,13 +10,16 @@ body{
   font-weight: var(--font-waight-regular);
   line-height: var(--line-height-base);
 }
+
 a:link{
   color: #161616;
   text-decoration: none;
+}
 
-a:visited {
+a:visited{
   font-style: italic;
 }
+
 a:hover{
   text-decoration: underline;
 }
@@ -25,7 +28,6 @@ a:active{
   background-color: var(--color-light-grey);
 }
 
-}
 h1, h2, h3, h4, h5, h6{
   font-family: var(--font-family-title);
   font-weight: var(--font-waight-bold);
